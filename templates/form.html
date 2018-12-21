@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+
+<head>
+   <title>Motor Control WebApp</title>
+</head>
+
+<body>
+<div class="w3-cell w3-container">
+   <h2>Serial output:</h2>
+   <p>{{ getData }}</p>
+   <p>Number of rotations: {{ numRevs }}</p>
+   <p><a href="{{ url_for('main') }}">Click here to go back.</a></p>
+</div>
+</body>
+</html>
